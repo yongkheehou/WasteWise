@@ -41,3 +41,16 @@ def find_square_lat(lat_input, square_centre_lat_list):
 def find_square_lon(lon_input, square_centre_lon_list):
     lon = min(square_centre_lon_list, key=lambda x:abs(x-lon_input))
     return square_centre_lon_list.index(lon)
+
+
+def all_nearest_squares(user_coordinates, square_centre_lat_list, square_centre_lon_list):
+    all_squares = list()
+    for lat in square_centre_lat_list:
+        for lon in square_centre_lon_list:
+            all_squares.append((lat, lon))
+
+    all_squares.sort(key=lambda x: geodesic(user_coordinates, x))
+    all_squares = [(find_square_lat(lat, square_centre_lat_list), 
+                    find_square_lon(lon, square_centre_lon_list)) 
+                   for (lat, lon) in all_squares]
+    return all_squares
