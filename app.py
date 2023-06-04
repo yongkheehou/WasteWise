@@ -12,6 +12,14 @@ bin_finder = BinFinder()
 
 counter = -1
 
+files = [
+            'cv_model/output/result_metal_can.jpg.json',
+            'cv_model/output/result_plastic_bag.jpg.json',
+            'cv_model/output/result_plastic_bottle.jpg.json',
+            'cv_model/output/result_ewaste.jpg.json',
+            'cv_model/output/result_furniture.jpg.json'
+]
+
 @app.get("/")
 def read_root():
     return {"message": "I'm Alive!"}
@@ -19,34 +27,29 @@ def read_root():
 @app.post("/get_predictions")
 async def get_predictions():
     try:
-        main(tag_input='./cv_model/raw_images', tag_output="./cv_model/output")
-        
         global counter 
+        
+        if counter >= 4: # reset counter
+            counter = -1
         
         counter += 1
         
-        files = [
-            'cv_model/output/result_metal_can.jpg.json',
-            'cv_model/output/result_plastic_bag.jpg.json',
-            'cv_model/output/result_plastic_bottle.jpg.json',
-            'cv_model/output/result_ewaste.jpg.json',
-            'cv_model/output/result_furniture.jpg.json'
-        ]
+        main(tag_input='./cv_model/raw_images', tag_output="./cv_model/output", images=[files[counter]])
         
         f = open(f'{files[counter]}')
         data = json.load(f)
         f.close()
         
-        if data['result']['tags'][counter]["tag"]["en"] == "container":
+        if data['result']['tags'][0]["tag"]["en"] == "container":
             return "recycling"
         
-        elif data['result']['tags'][counter]["tag"]["en"] in ("bottle", "plastic bag"):
+        elif data['result']['tags'][0]["tag"]["en"] in ("bottle", "plastic bag"):
             return "recycling"
         
-        elif data['result']['tags'][counter]["tag"]["en"] == "rubbish":
+        elif data['result']['tags'][0]["tag"]["en"] == "rubbish":
             return "e_waste"
         
-        elif data['result']['tags'][counter]["tag"]["en"] == "studio couch":
+        elif data['result']['tags'][0]["tag"]["en"] == "studio couch":
             return "second_hand"  
         
         else:

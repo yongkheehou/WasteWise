@@ -75,16 +75,16 @@ def extract_colors(image, upload_id=False):
     return colors_response.json()
 
 
-def main(tag_input, tag_output, language="en", verbose=0, merged_output=0, include_colors=0):
+def main(tag_input, tag_output, images, language="en", verbose=0, merged_output=0, include_colors=0):
 
     print('Tagging images started')
 
     results = {}
     if os.path.isdir(tag_input):
-        images = [filename for filename in os.listdir(tag_input)
-                  if os.path.isfile(os.path.join(tag_input, filename)) and
-                  filename.split('.')[-1].lower() in FILE_TYPES]
-
+        # images = [filename for filename in os.listdir(tag_input)
+        #           if os.path.isfile(os.path.join(tag_input, filename)) and
+        #           filename.split('.')[-1].lower() in FILE_TYPES]
+        
         images_count = len(images)
         for iterator, image_file in enumerate(images):
             image_path = os.path.join(tag_input, image_file)
