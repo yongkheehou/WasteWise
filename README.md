@@ -1,47 +1,92 @@
-## Run the following commands to create the virtual environment in this directory
-- `pip3 install virtualenv==20.23.0`
-- `python -m venv .`
 
-## Run the following command to activate the virtual environment
-- `venv/Scripts/activate`
+<a name="readme-top"></a>
 
-## Run the following command to install the required dependencies
-- `pip3 install -r requirements.txt`
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+    <img src="img/wastewise.png" alt="Logo" width="560" height="260">
 
-## Create a .env file 
-- add your IMAGGA_API_KEY and IMAGGA_API_SECRET into the .env file
-
-## Run the following command to execute the cv model code
-- `python ./cv_model/main.py ./cv_model/raw_images ./cv_model/output --language=en --verbose=0 --merged-output=0 --include-colors=0`
-
-## Run the following command to start the app
-- `uvicorn app:app --host 0.0.0.0 --port 8000`
+  <h3 align="center">Unlocking the power of sustainable waste management!</h3>
+    <br />
+  </p>
+</div>
 
 
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+WasteWise is a Revolutionary waste management Web Application with AI-powered recycling solutions. WasteWise uses Computer Vision to scan and classify the waste items. Leveraging geolocation services, the web app locates the nearest recycling points, e-waste collection or second hand stores, making waste disposal convenient and efficient. 
+
+### Why?
+
+A staggering 7.39 million tonnes of solid waste was generated in Singapore in 2022, a [6% rise from the previous year](https://www.channelnewsasia.com/singapore/recycling-rate-waste-generated-statistics-singapore-nea-2022-3460796#:~:text=Around%207.39%20million%20tonnes%20of,on%20Wednesday%20(May%203)). 
+
+Yet, Singapore's domestic recycling rate fell to a [record lowest in a decade - standing at 12%](https://www.straitstimes.com/singapore/domestic-recycling-rate-in-singapore-lowest-in-over-a-decade). 
+
+The low recycling rates alluded to incorrect recycling due to the lack of awareness as to what items to recycle, and which channel to use to dispose of items.
+
+WasteWise aims to make correct waste disposal convenient, easy and fuss-free.
 
 
 
-# Instructions for BinFinder
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+* Next.js
+* Python FastAPI
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 1. Configure
 
-Edit `BinFinder\config.py`
-## 2. Pre-Process data
+<!-- GETTING STARTED -->
+## Getting Started
 
-Gather data of recycling bin locations in CSV files with the following headers
+This project consists of 2 parts, a next.js front-end and a Python fastAPI backend.
 
-> name,address,description,postal_code,lat,lon
+### Prerequisites
 
-Edit the variable to the csv file path in the file `generate_data.py`
+- Python 3.8
 
-Run the Following Commands
+### Installation
 
-- `cd BinFinder`
-- `py generate_data.py`
+1. Clone the repo
+   ```sh
+   git clone https://github.com/yongkheehou/WasteWise
+   ```
 
-A new csv file should be generated in the data folder.
+#### Set Up Python Backend
 
-## 3. Final Config
+2. Install Dependencies 
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Run the following command to start the app
+   ```sh
+   uvicorn app:app --host 0.0.0.0 --port 8000
+   ```
 
-Edit the variable in `BinFinder\BinFinder.py` to point to the newly generated csv file 
+### Set Up Frontend
+
+Todo by Joshua
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+- [Khee Hou](https://github.com/yongkheehou)
+- [Jun Yu](https://github.com/chuajunyu)
+- [Joshua]()
+- [Shelia]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

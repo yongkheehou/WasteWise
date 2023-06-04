@@ -7,7 +7,6 @@ from .config import *
 
 class BinFinder():
     def __init__(self):
-        # Initialise the data frame and grids here
         self.recycling_bin_data = pd.read_csv(r"BinFinder/data/final_recycling_bin.csv")
         self.second_hand_goods_data = pd.read_csv(r"BinFinder/data/final_second_hand_goods.csv")
         self.e_waste_bin_data = pd.read_csv(r"BinFinder/data/final_e_waste.csv")
