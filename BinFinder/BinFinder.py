@@ -22,15 +22,20 @@ class BinFinder():
         for idx in data.index:
             lat = data["lat"][idx]
             lon = data["lon"][idx]
-            name = data["name"][idx]
-            address = data["address"][idx]
-            description = data["description"][idx]
-            postal_code = data["postal_code"][idx].item()
-            
             distance = geodesic(user_coordinates, (lat, lon)).km
-            bins.append(((lat, lon), distance, name, address, description, postal_code))
+            
+            bin_dictionary = {
+                "coordinates": (lat, lon),
+                "distance from user": distance,
+                "name": data["name"][idx],
+                "address": data["address"][idx],
+                "description": data["description"][idx],
+                "postal_code": data["postal_code"][idx].item()
+            }
 
-        bins.sort(key=lambda x:x[2])
+            bins.append(bin_dictionary)
+
+        bins.sort(key=lambda x:x["distance from user"])
 
         if len(bins) < k:
             return bins
