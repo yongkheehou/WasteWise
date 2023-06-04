@@ -4,6 +4,8 @@ import json
 
 app = FastAPI()
 
+counter = -1
+
 @app.get("/")
 def read_root():
     return {"message": "I'm Alive!"}
@@ -17,14 +19,19 @@ async def get_predictions():
         data = json.load(f)
         f.close()
         
-        if data['result']['tags'][0]["tag"]["en"] == "container":
+        counter += 1
+        
+        if data['result']['tags'][counter]["tag"]["en"] == "container":
             return "metal"
         
-        elif data['result']['tags'][0]["tag"]["en"] == "bottle":
+        elif data['result']['tags'][counter]["tag"]["en"] in ("bottle", "plastic bag"):
             return "plastic"
         
-        elif data['result']['tags'][0]["tag"]["en"] == "plastic bag":
-            return "plastic bag" 
+        elif data['result']['tags'][counter]["tag"]["en"] == "rubbish":
+            return "e-waste"
+        
+        elif data['result']['tags'][counter]["tag"]["en"] == "studio couch":
+            return "second hand furniture"  
         
         else:
             return "Type of waste is unknown"

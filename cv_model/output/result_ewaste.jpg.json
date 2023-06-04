@@ -1,0 +1,388 @@
+{
+    "result": {
+        "tags": [
+            {
+                "confidence": 98.4726791381836,
+                "tag": {
+                    "en": "rubbish"
+                }
+            },
+            {
+                "confidence": 18.8038234710693,
+                "tag": {
+                    "en": "business"
+                }
+            },
+            {
+                "confidence": 18.6245365142822,
+                "tag": {
+                    "en": "computer"
+                }
+            },
+            {
+                "confidence": 18.4644775390625,
+                "tag": {
+                    "en": "office"
+                }
+            },
+            {
+                "confidence": 17.0286102294922,
+                "tag": {
+                    "en": "desk"
+                }
+            },
+            {
+                "confidence": 16.9530048370361,
+                "tag": {
+                    "en": "vehicle"
+                }
+            },
+            {
+                "confidence": 16.4577808380127,
+                "tag": {
+                    "en": "table"
+                }
+            },
+            {
+                "confidence": 14.2927951812744,
+                "tag": {
+                    "en": "motor scooter"
+                }
+            },
+            {
+                "confidence": 14.0846796035767,
+                "tag": {
+                    "en": "technology"
+                }
+            },
+            {
+                "confidence": 13.8622426986694,
+                "tag": {
+                    "en": "laptop"
+                }
+            },
+            {
+                "confidence": 13.3731508255005,
+                "tag": {
+                    "en": "car"
+                }
+            },
+            {
+                "confidence": 12.7938003540039,
+                "tag": {
+                    "en": "industry"
+                }
+            },
+            {
+                "confidence": 12.6181697845459,
+                "tag": {
+                    "en": "equipment"
+                }
+            },
+            {
+                "confidence": 11.9920530319214,
+                "tag": {
+                    "en": "wheeled vehicle"
+                }
+            },
+            {
+                "confidence": 11.9913835525513,
+                "tag": {
+                    "en": "stack"
+                }
+            },
+            {
+                "confidence": 11.9525461196899,
+                "tag": {
+                    "en": "travel"
+                }
+            },
+            {
+                "confidence": 11.4835758209229,
+                "tag": {
+                    "en": "interior"
+                }
+            },
+            {
+                "confidence": 11.4721822738647,
+                "tag": {
+                    "en": "working"
+                }
+            },
+            {
+                "confidence": 11.2930727005005,
+                "tag": {
+                    "en": "room"
+                }
+            },
+            {
+                "confidence": 11.2487926483154,
+                "tag": {
+                    "en": "metal"
+                }
+            },
+            {
+                "confidence": 11.1922044754028,
+                "tag": {
+                    "en": "building"
+                }
+            },
+            {
+                "confidence": 11.140944480896,
+                "tag": {
+                    "en": "people"
+                }
+            },
+            {
+                "confidence": 10.9723281860352,
+                "tag": {
+                    "en": "work"
+                }
+            },
+            {
+                "confidence": 10.6963958740234,
+                "tag": {
+                    "en": "keyboard"
+                }
+            },
+            {
+                "confidence": 10.5899085998535,
+                "tag": {
+                    "en": "broken"
+                }
+            },
+            {
+                "confidence": 10.4350395202637,
+                "tag": {
+                    "en": "old"
+                }
+            },
+            {
+                "confidence": 10.1761436462402,
+                "tag": {
+                    "en": "paper"
+                }
+            },
+            {
+                "confidence": 9.88507556915283,
+                "tag": {
+                    "en": "tourism"
+                }
+            },
+            {
+                "confidence": 9.71415042877197,
+                "tag": {
+                    "en": "yard"
+                }
+            },
+            {
+                "confidence": 9.61686038970947,
+                "tag": {
+                    "en": "recycle"
+                }
+            },
+            {
+                "confidence": 9.5610294342041,
+                "tag": {
+                    "en": "automobile"
+                }
+            },
+            {
+                "confidence": 9.52411365509033,
+                "tag": {
+                    "en": "damaged"
+                }
+            },
+            {
+                "confidence": 9.39474391937256,
+                "tag": {
+                    "en": "man"
+                }
+            },
+            {
+                "confidence": 9.13437366485596,
+                "tag": {
+                    "en": "city"
+                }
+            },
+            {
+                "confidence": 8.98861789703369,
+                "tag": {
+                    "en": "vacation"
+                }
+            },
+            {
+                "confidence": 8.82622051239014,
+                "tag": {
+                    "en": "scrap"
+                }
+            },
+            {
+                "confidence": 8.81489086151123,
+                "tag": {
+                    "en": "businessman"
+                }
+            },
+            {
+                "confidence": 8.74208831787109,
+                "tag": {
+                    "en": "junk"
+                }
+            },
+            {
+                "confidence": 8.73385047912598,
+                "tag": {
+                    "en": "waste"
+                }
+            },
+            {
+                "confidence": 8.68977451324463,
+                "tag": {
+                    "en": "recycling"
+                }
+            },
+            {
+                "confidence": 8.6134090423584,
+                "tag": {
+                    "en": "device"
+                }
+            },
+            {
+                "confidence": 8.57975006103516,
+                "tag": {
+                    "en": "corporate"
+                }
+            },
+            {
+                "confidence": 8.42822933197021,
+                "tag": {
+                    "en": "pile"
+                }
+            },
+            {
+                "confidence": 8.42608261108398,
+                "tag": {
+                    "en": "professional"
+                }
+            },
+            {
+                "confidence": 8.39870929718018,
+                "tag": {
+                    "en": "modern"
+                }
+            },
+            {
+                "confidence": 8.33992958068848,
+                "tag": {
+                    "en": "furniture"
+                }
+            },
+            {
+                "confidence": 8.28013706207275,
+                "tag": {
+                    "en": "executive"
+                }
+            },
+            {
+                "confidence": 8.21216011047363,
+                "tag": {
+                    "en": "environment"
+                }
+            },
+            {
+                "confidence": 8.05747604370117,
+                "tag": {
+                    "en": "monitor"
+                }
+            },
+            {
+                "confidence": 7.99474763870239,
+                "tag": {
+                    "en": "motor"
+                }
+            },
+            {
+                "confidence": 7.89930295944214,
+                "tag": {
+                    "en": "junkyard"
+                }
+            },
+            {
+                "confidence": 7.80226707458496,
+                "tag": {
+                    "en": "black"
+                }
+            },
+            {
+                "confidence": 7.8004002571106,
+                "tag": {
+                    "en": "architecture"
+                }
+            },
+            {
+                "confidence": 7.76541996002197,
+                "tag": {
+                    "en": "mechanical"
+                }
+            },
+            {
+                "confidence": 7.74403762817383,
+                "tag": {
+                    "en": "pieces"
+                }
+            },
+            {
+                "confidence": 7.73157119750977,
+                "tag": {
+                    "en": "machine"
+                }
+            },
+            {
+                "confidence": 7.52631568908691,
+                "tag": {
+                    "en": "meeting"
+                }
+            },
+            {
+                "confidence": 7.43478155136108,
+                "tag": {
+                    "en": "place"
+                }
+            },
+            {
+                "confidence": 7.40515851974487,
+                "tag": {
+                    "en": "network"
+                }
+            },
+            {
+                "confidence": 7.27754497528076,
+                "tag": {
+                    "en": "new"
+                }
+            },
+            {
+                "confidence": 7.26073408126831,
+                "tag": {
+                    "en": "businesswoman"
+                }
+            },
+            {
+                "confidence": 7.07704257965088,
+                "tag": {
+                    "en": "garbage"
+                }
+            },
+            {
+                "confidence": 7.01842927932739,
+                "tag": {
+                    "en": "indoors"
+                }
+            }
+        ]
+    },
+    "status": {
+        "text": "",
+        "type": "success"
+    }
+}

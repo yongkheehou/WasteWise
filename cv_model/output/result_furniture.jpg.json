@@ -1,0 +1,634 @@
+{
+    "result": {
+        "tags": [
+            {
+                "confidence": 100,
+                "tag": {
+                    "en": "studio couch"
+                }
+            },
+            {
+                "confidence": 100,
+                "tag": {
+                    "en": "seat"
+                }
+            },
+            {
+                "confidence": 100,
+                "tag": {
+                    "en": "sofa"
+                }
+            },
+            {
+                "confidence": 100,
+                "tag": {
+                    "en": "furniture"
+                }
+            },
+            {
+                "confidence": 93.7195129394531,
+                "tag": {
+                    "en": "convertible"
+                }
+            },
+            {
+                "confidence": 66.4176712036133,
+                "tag": {
+                    "en": "interior"
+                }
+            },
+            {
+                "confidence": 64.051025390625,
+                "tag": {
+                    "en": "room"
+                }
+            },
+            {
+                "confidence": 57.6117477416992,
+                "tag": {
+                    "en": "home"
+                }
+            },
+            {
+                "confidence": 57.0738525390625,
+                "tag": {
+                    "en": "couch"
+                }
+            },
+            {
+                "confidence": 55.4511375427246,
+                "tag": {
+                    "en": "comfortable"
+                }
+            },
+            {
+                "confidence": 50.529857635498,
+                "tag": {
+                    "en": "modern"
+                }
+            },
+            {
+                "confidence": 48.6863441467285,
+                "tag": {
+                    "en": "decor"
+                }
+            },
+            {
+                "confidence": 42.0994148254395,
+                "tag": {
+                    "en": "pillow"
+                }
+            },
+            {
+                "confidence": 40.6351356506348,
+                "tag": {
+                    "en": "rest"
+                }
+            },
+            {
+                "confidence": 40.1557273864746,
+                "tag": {
+                    "en": "house"
+                }
+            },
+            {
+                "confidence": 38.3307876586914,
+                "tag": {
+                    "en": "leather"
+                }
+            },
+            {
+                "confidence": 38.3078765869141,
+                "tag": {
+                    "en": "design"
+                }
+            },
+            {
+                "confidence": 37.1071929931641,
+                "tag": {
+                    "en": "relax"
+                }
+            },
+            {
+                "confidence": 36.9981880187988,
+                "tag": {
+                    "en": "living"
+                }
+            },
+            {
+                "confidence": 36.0086250305176,
+                "tag": {
+                    "en": "armchair"
+                }
+            },
+            {
+                "confidence": 35.6481666564941,
+                "tag": {
+                    "en": "style"
+                }
+            },
+            {
+                "confidence": 35.2090530395508,
+                "tag": {
+                    "en": "relaxation"
+                }
+            },
+            {
+                "confidence": 32.8233642578125,
+                "tag": {
+                    "en": "comfort"
+                }
+            },
+            {
+                "confidence": 30.7833881378174,
+                "tag": {
+                    "en": "indoors"
+                }
+            },
+            {
+                "confidence": 29.7887134552002,
+                "tag": {
+                    "en": "floor"
+                }
+            },
+            {
+                "confidence": 28.9419555664062,
+                "tag": {
+                    "en": "lifestyle"
+                }
+            },
+            {
+                "confidence": 28.7748069763184,
+                "tag": {
+                    "en": "apartment"
+                }
+            },
+            {
+                "confidence": 28.3330326080322,
+                "tag": {
+                    "en": "luxury"
+                }
+            },
+            {
+                "confidence": 27.5729999542236,
+                "tag": {
+                    "en": "cushion"
+                }
+            },
+            {
+                "confidence": 26.5451564788818,
+                "tag": {
+                    "en": "wall"
+                }
+            },
+            {
+                "confidence": 26.3752326965332,
+                "tag": {
+                    "en": "lounge"
+                }
+            },
+            {
+                "confidence": 25.7650947570801,
+                "tag": {
+                    "en": "lamp"
+                }
+            },
+            {
+                "confidence": 24.2576999664307,
+                "tag": {
+                    "en": "table"
+                }
+            },
+            {
+                "confidence": 24.1503009796143,
+                "tag": {
+                    "en": "fashion"
+                }
+            },
+            {
+                "confidence": 23.9055118560791,
+                "tag": {
+                    "en": "decoration"
+                }
+            },
+            {
+                "confidence": 22.5673351287842,
+                "tag": {
+                    "en": "covered couch"
+                }
+            },
+            {
+                "confidence": 21.56565284729,
+                "tag": {
+                    "en": "living room"
+                }
+            },
+            {
+                "confidence": 20.5611457824707,
+                "tag": {
+                    "en": "bedroom"
+                }
+            },
+            {
+                "confidence": 20.3319778442383,
+                "tag": {
+                    "en": "architecture"
+                }
+            },
+            {
+                "confidence": 20.2676639556885,
+                "tag": {
+                    "en": "inside"
+                }
+            },
+            {
+                "confidence": 20.1602592468262,
+                "tag": {
+                    "en": "3d"
+                }
+            },
+            {
+                "confidence": 19.9159832000732,
+                "tag": {
+                    "en": "domestic"
+                }
+            },
+            {
+                "confidence": 19.7612113952637,
+                "tag": {
+                    "en": "divan"
+                }
+            },
+            {
+                "confidence": 19.6867446899414,
+                "tag": {
+                    "en": "ottoman"
+                }
+            },
+            {
+                "confidence": 19.4035396575928,
+                "tag": {
+                    "en": "light"
+                }
+            },
+            {
+                "confidence": 19.3358211517334,
+                "tag": {
+                    "en": "elegance"
+                }
+            },
+            {
+                "confidence": 19.1960411071777,
+                "tag": {
+                    "en": "indoor"
+                }
+            },
+            {
+                "confidence": 19.1710052490234,
+                "tag": {
+                    "en": "residential"
+                }
+            },
+            {
+                "confidence": 19.0530300140381,
+                "tag": {
+                    "en": "render"
+                }
+            },
+            {
+                "confidence": 19.0015029907227,
+                "tag": {
+                    "en": "bed"
+                }
+            },
+            {
+                "confidence": 18.2891941070557,
+                "tag": {
+                    "en": "leisure"
+                }
+            },
+            {
+                "confidence": 18.0009517669678,
+                "tag": {
+                    "en": "litter"
+                }
+            },
+            {
+                "confidence": 17.203987121582,
+                "tag": {
+                    "en": "hotel"
+                }
+            },
+            {
+                "confidence": 17.1243438720703,
+                "tag": {
+                    "en": "nobody"
+                }
+            },
+            {
+                "confidence": 16.9483184814453,
+                "tag": {
+                    "en": "contemporary"
+                }
+            },
+            {
+                "confidence": 16.6955013275146,
+                "tag": {
+                    "en": "wood"
+                }
+            },
+            {
+                "confidence": 15.9136390686035,
+                "tag": {
+                    "en": "three dimensional"
+                }
+            },
+            {
+                "confidence": 15.8557233810425,
+                "tag": {
+                    "en": "chair"
+                }
+            },
+            {
+                "confidence": 15.4045286178589,
+                "tag": {
+                    "en": "new"
+                }
+            },
+            {
+                "confidence": 14.7640581130981,
+                "tag": {
+                    "en": "cozy"
+                }
+            },
+            {
+                "confidence": 14.6755685806274,
+                "tag": {
+                    "en": "object"
+                }
+            },
+            {
+                "confidence": 14.3768739700317,
+                "tag": {
+                    "en": "furnishing"
+                }
+            },
+            {
+                "confidence": 13.9907207489014,
+                "tag": {
+                    "en": "single"
+                }
+            },
+            {
+                "confidence": 13.8140335083008,
+                "tag": {
+                    "en": "furnishings"
+                }
+            },
+            {
+                "confidence": 13.8079538345337,
+                "tag": {
+                    "en": "pillows"
+                }
+            },
+            {
+                "confidence": 13.6343517303467,
+                "tag": {
+                    "en": "carpet"
+                }
+            },
+            {
+                "confidence": 13.6326732635498,
+                "tag": {
+                    "en": "sleep"
+                }
+            },
+            {
+                "confidence": 13.583625793457,
+                "tag": {
+                    "en": "household"
+                }
+            },
+            {
+                "confidence": 13.5279731750488,
+                "tag": {
+                    "en": "conveyance"
+                }
+            },
+            {
+                "confidence": 12.6732740402222,
+                "tag": {
+                    "en": "stylish"
+                }
+            },
+            {
+                "confidence": 12.5728483200073,
+                "tag": {
+                    "en": "horizontal"
+                }
+            },
+            {
+                "confidence": 11.8435611724854,
+                "tag": {
+                    "en": "accommodation"
+                }
+            },
+            {
+                "confidence": 11.62144947052,
+                "tag": {
+                    "en": "vase"
+                }
+            },
+            {
+                "confidence": 11.5961961746216,
+                "tag": {
+                    "en": "reflect"
+                }
+            },
+            {
+                "confidence": 10.4315357208252,
+                "tag": {
+                    "en": "lifestyles"
+                }
+            },
+            {
+                "confidence": 10.4160022735596,
+                "tag": {
+                    "en": "sit"
+                }
+            },
+            {
+                "confidence": 10.3154668807983,
+                "tag": {
+                    "en": "brown"
+                }
+            },
+            {
+                "confidence": 10.0211229324341,
+                "tag": {
+                    "en": "color"
+                }
+            },
+            {
+                "confidence": 9.92628383636475,
+                "tag": {
+                    "en": "soft"
+                }
+            },
+            {
+                "confidence": 9.8703556060791,
+                "tag": {
+                    "en": "suite"
+                }
+            },
+            {
+                "confidence": 9.49943828582764,
+                "tag": {
+                    "en": "shiny"
+                }
+            },
+            {
+                "confidence": 9.36835765838623,
+                "tag": {
+                    "en": "trendy"
+                }
+            },
+            {
+                "confidence": 9.27177619934082,
+                "tag": {
+                    "en": "coffee"
+                }
+            },
+            {
+                "confidence": 9.17006206512451,
+                "tag": {
+                    "en": "window"
+                }
+            },
+            {
+                "confidence": 8.90114784240723,
+                "tag": {
+                    "en": "settee"
+                }
+            },
+            {
+                "confidence": 8.89854431152344,
+                "tag": {
+                    "en": "mattress"
+                }
+            },
+            {
+                "confidence": 8.89638328552246,
+                "tag": {
+                    "en": "guest"
+                }
+            },
+            {
+                "confidence": 8.85636043548584,
+                "tag": {
+                    "en": "armrest"
+                }
+            },
+            {
+                "confidence": 8.71801090240479,
+                "tag": {
+                    "en": "designer"
+                }
+            },
+            {
+                "confidence": 8.60099697113037,
+                "tag": {
+                    "en": "sitting"
+                }
+            },
+            {
+                "confidence": 8.5993185043335,
+                "tag": {
+                    "en": "empty"
+                }
+            },
+            {
+                "confidence": 8.36145687103271,
+                "tag": {
+                    "en": "clean"
+                }
+            },
+            {
+                "confidence": 8.07686519622803,
+                "tag": {
+                    "en": "cut"
+                }
+            },
+            {
+                "confidence": 7.90155744552612,
+                "tag": {
+                    "en": "minimalism"
+                }
+            },
+            {
+                "confidence": 7.89864778518677,
+                "tag": {
+                    "en": "motel"
+                }
+            },
+            {
+                "confidence": 7.85897827148438,
+                "tag": {
+                    "en": "curtain"
+                }
+            },
+            {
+                "confidence": 7.78026819229126,
+                "tag": {
+                    "en": "decorating"
+                }
+            },
+            {
+                "confidence": 7.76561212539673,
+                "tag": {
+                    "en": "space"
+                }
+            },
+            {
+                "confidence": 7.71964073181152,
+                "tag": {
+                    "en": "elegant"
+                }
+            },
+            {
+                "confidence": 7.70422792434692,
+                "tag": {
+                    "en": "attractive"
+                }
+            },
+            {
+                "confidence": 7.59695816040039,
+                "tag": {
+                    "en": "fashionable"
+                }
+            },
+            {
+                "confidence": 7.54633665084839,
+                "tag": {
+                    "en": "chrome"
+                }
+            },
+            {
+                "confidence": 7.15553092956543,
+                "tag": {
+                    "en": "bright"
+                }
+            },
+            {
+                "confidence": 7.08099937438965,
+                "tag": {
+                    "en": "steel"
+                }
+            }
+        ]
+    },
+    "status": {
+        "text": "",
+        "type": "success"
+    }
+}
