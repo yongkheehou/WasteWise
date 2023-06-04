@@ -19,6 +19,8 @@ async def get_predictions():
         data = json.load(f)
         f.close()
         
+        global counter 
+        
         counter += 1
         
         if data['result']['tags'][counter]["tag"]["en"] == "container":
