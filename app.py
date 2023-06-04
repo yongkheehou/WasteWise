@@ -21,25 +21,33 @@ async def get_predictions():
     try:
         main(tag_input='./cv_model/raw_images', tag_output="./cv_model/output")
         
-        f = open('./cv_model/output/result_metal_can.jpg.json')
-        data = json.load(f)
-        f.close()
-        
         global counter 
         
         counter += 1
         
+        files = [
+            'cv_model\output\result_metal_can.jpg.json',
+            'cv_model\output\result_plastic_bag.jpg.json',
+            'cv_model\output\result_plastic_bottle.jpg.json',
+            'cv_model\output\result_ewaste.jpg.json',
+            'cv_model\output\result_furniture.jpg.json'
+        ]
+        
+        f = open(f'{files[counter]}')
+        data = json.load(f)
+        f.close()
+        
         if data['result']['tags'][counter]["tag"]["en"] == "container":
-            return "metal"
+            return "recycling"
         
         elif data['result']['tags'][counter]["tag"]["en"] in ("bottle", "plastic bag"):
-            return "plastic"
+            return "recycling"
         
         elif data['result']['tags'][counter]["tag"]["en"] == "rubbish":
-            return "e-waste"
+            return "e_waste"
         
         elif data['result']['tags'][counter]["tag"]["en"] == "studio couch":
-            return "second hand furniture"  
+            return "second_hand"  
         
         else:
             return "Type of waste is unknown"
