@@ -24,16 +24,16 @@ async def get_predictions():
         counter += 1
         
         if data['result']['tags'][counter]["tag"]["en"] == "container":
-            return "metal"
+            return "recycling"
         
         elif data['result']['tags'][counter]["tag"]["en"] in ("bottle", "plastic bag"):
-            return "plastic"
+            return "recycling"
         
         elif data['result']['tags'][counter]["tag"]["en"] == "rubbish":
-            return "e-waste"
+            return "e_waste"
         
         elif data['result']['tags'][counter]["tag"]["en"] == "studio couch":
-            return "second hand furniture"  
+            return "second_hand"  
         
         else:
             return "Type of waste is unknown"
