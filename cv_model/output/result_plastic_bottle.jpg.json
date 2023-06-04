@@ -1,0 +1,538 @@
+{
+    "result": {
+        "tags": [
+            {
+                "confidence": 100,
+                "tag": {
+                    "en": "bottle"
+                }
+            },
+            {
+                "confidence": 67.051872253418,
+                "tag": {
+                    "en": "container"
+                }
+            },
+            {
+                "confidence": 64.8065948486328,
+                "tag": {
+                    "en": "water bottle"
+                }
+            },
+            {
+                "confidence": 45.4308395385742,
+                "tag": {
+                    "en": "water"
+                }
+            },
+            {
+                "confidence": 45.0026435852051,
+                "tag": {
+                    "en": "liquid"
+                }
+            },
+            {
+                "confidence": 44.3222618103027,
+                "tag": {
+                    "en": "drink"
+                }
+            },
+            {
+                "confidence": 44.1208610534668,
+                "tag": {
+                    "en": "plastic"
+                }
+            },
+            {
+                "confidence": 42.1014556884766,
+                "tag": {
+                    "en": "vessel"
+                }
+            },
+            {
+                "confidence": 36.7806739807129,
+                "tag": {
+                    "en": "clean"
+                }
+            },
+            {
+                "confidence": 34.9201049804688,
+                "tag": {
+                    "en": "clear"
+                }
+            },
+            {
+                "confidence": 32.5941047668457,
+                "tag": {
+                    "en": "beverage"
+                }
+            },
+            {
+                "confidence": 32.5676460266113,
+                "tag": {
+                    "en": "glass"
+                }
+            },
+            {
+                "confidence": 32.2889556884766,
+                "tag": {
+                    "en": "transparent"
+                }
+            },
+            {
+                "confidence": 29.5456695556641,
+                "tag": {
+                    "en": "wet"
+                }
+            },
+            {
+                "confidence": 28.1714668273926,
+                "tag": {
+                    "en": "mineral"
+                }
+            },
+            {
+                "confidence": 28.1437702178955,
+                "tag": {
+                    "en": "fresh"
+                }
+            },
+            {
+                "confidence": 26.7154884338379,
+                "tag": {
+                    "en": "aqua"
+                }
+            },
+            {
+                "confidence": 25.0643081665039,
+                "tag": {
+                    "en": "pure"
+                }
+            },
+            {
+                "confidence": 24.3840446472168,
+                "tag": {
+                    "en": "thirst"
+                }
+            },
+            {
+                "confidence": 23.9653797149658,
+                "tag": {
+                    "en": "healthy"
+                }
+            },
+            {
+                "confidence": 23.722505569458,
+                "tag": {
+                    "en": "bottled"
+                }
+            },
+            {
+                "confidence": 22.951545715332,
+                "tag": {
+                    "en": "health"
+                }
+            },
+            {
+                "confidence": 22.710334777832,
+                "tag": {
+                    "en": "refreshment"
+                }
+            },
+            {
+                "confidence": 21.5480365753174,
+                "tag": {
+                    "en": "cold"
+                }
+            },
+            {
+                "confidence": 20.8680686950684,
+                "tag": {
+                    "en": "drop"
+                }
+            },
+            {
+                "confidence": 20.0982761383057,
+                "tag": {
+                    "en": "natural"
+                }
+            },
+            {
+                "confidence": 20.0042896270752,
+                "tag": {
+                    "en": "cap"
+                }
+            },
+            {
+                "confidence": 19.8086738586426,
+                "tag": {
+                    "en": "object"
+                }
+            },
+            {
+                "confidence": 19.1648120880127,
+                "tag": {
+                    "en": "refreshing"
+                }
+            },
+            {
+                "confidence": 18.7256565093994,
+                "tag": {
+                    "en": "label"
+                }
+            },
+            {
+                "confidence": 18.6171932220459,
+                "tag": {
+                    "en": "vodka"
+                }
+            },
+            {
+                "confidence": 18.2964859008789,
+                "tag": {
+                    "en": "full"
+                }
+            },
+            {
+                "confidence": 17.4883842468262,
+                "tag": {
+                    "en": "freshness"
+                }
+            },
+            {
+                "confidence": 16.5680294036865,
+                "tag": {
+                    "en": "close"
+                }
+            },
+            {
+                "confidence": 16.4339427947998,
+                "tag": {
+                    "en": "life"
+                }
+            },
+            {
+                "confidence": 16.1816082000732,
+                "tag": {
+                    "en": "diet"
+                }
+            },
+            {
+                "confidence": 15.8155736923218,
+                "tag": {
+                    "en": "hydrate"
+                }
+            },
+            {
+                "confidence": 15.1078319549561,
+                "tag": {
+                    "en": "cool"
+                }
+            },
+            {
+                "confidence": 14.6366510391235,
+                "tag": {
+                    "en": "refresh"
+                }
+            },
+            {
+                "confidence": 13.7515392303467,
+                "tag": {
+                    "en": "food"
+                }
+            },
+            {
+                "confidence": 13.6966791152954,
+                "tag": {
+                    "en": "bottles"
+                }
+            },
+            {
+                "confidence": 13.6564092636108,
+                "tag": {
+                    "en": "thirsty"
+                }
+            },
+            {
+                "confidence": 12.7146892547607,
+                "tag": {
+                    "en": "empty"
+                }
+            },
+            {
+                "confidence": 12.2768259048462,
+                "tag": {
+                    "en": "drops"
+                }
+            },
+            {
+                "confidence": 12.1950550079346,
+                "tag": {
+                    "en": "reflection"
+                }
+            },
+            {
+                "confidence": 11.8747520446777,
+                "tag": {
+                    "en": "hydration"
+                }
+            },
+            {
+                "confidence": 11.8458347320557,
+                "tag": {
+                    "en": "moist"
+                }
+            },
+            {
+                "confidence": 11.7805852890015,
+                "tag": {
+                    "en": "energy"
+                }
+            },
+            {
+                "confidence": 11.7609415054321,
+                "tag": {
+                    "en": "soda"
+                }
+            },
+            {
+                "confidence": 11.7098550796509,
+                "tag": {
+                    "en": "condensation"
+                }
+            },
+            {
+                "confidence": 10.7396001815796,
+                "tag": {
+                    "en": "droplets"
+                }
+            },
+            {
+                "confidence": 10.7042999267578,
+                "tag": {
+                    "en": "environment"
+                }
+            },
+            {
+                "confidence": 10.7002878189087,
+                "tag": {
+                    "en": "single"
+                }
+            },
+            {
+                "confidence": 10.4439182281494,
+                "tag": {
+                    "en": "bubbles"
+                }
+            },
+            {
+                "confidence": 9.8947229385376,
+                "tag": {
+                    "en": "crystal"
+                }
+            },
+            {
+                "confidence": 9.82976913452148,
+                "tag": {
+                    "en": "h2o"
+                }
+            },
+            {
+                "confidence": 9.68061256408691,
+                "tag": {
+                    "en": "recycling"
+                }
+            },
+            {
+                "confidence": 9.61385917663574,
+                "tag": {
+                    "en": "spray"
+                }
+            },
+            {
+                "confidence": 9.60051250457764,
+                "tag": {
+                    "en": "can"
+                }
+            },
+            {
+                "confidence": 9.57837677001953,
+                "tag": {
+                    "en": "drinking"
+                }
+            },
+            {
+                "confidence": 9.46515655517578,
+                "tag": {
+                    "en": "hygiene"
+                }
+            },
+            {
+                "confidence": 9.46501445770264,
+                "tag": {
+                    "en": "color"
+                }
+            },
+            {
+                "confidence": 9.45461463928223,
+                "tag": {
+                    "en": "blank"
+                }
+            },
+            {
+                "confidence": 9.43942546844482,
+                "tag": {
+                    "en": "closeup"
+                }
+            },
+            {
+                "confidence": 9.4345531463623,
+                "tag": {
+                    "en": "rain"
+                }
+            },
+            {
+                "confidence": 9.25490283966064,
+                "tag": {
+                    "en": "alcohol"
+                }
+            },
+            {
+                "confidence": 9.18256378173828,
+                "tag": {
+                    "en": "fluid"
+                }
+            },
+            {
+                "confidence": 8.91210746765137,
+                "tag": {
+                    "en": "dehydration"
+                }
+            },
+            {
+                "confidence": 8.91190719604492,
+                "tag": {
+                    "en": "regimen"
+                }
+            },
+            {
+                "confidence": 8.89517498016357,
+                "tag": {
+                    "en": "ice"
+                }
+            },
+            {
+                "confidence": 8.72860622406006,
+                "tag": {
+                    "en": "droplet"
+                }
+            },
+            {
+                "confidence": 8.69774723052979,
+                "tag": {
+                    "en": "reflect"
+                }
+            },
+            {
+                "confidence": 8.57775974273682,
+                "tag": {
+                    "en": "mirror"
+                }
+            },
+            {
+                "confidence": 8.47628116607666,
+                "tag": {
+                    "en": "bubble"
+                }
+            },
+            {
+                "confidence": 8.32596015930176,
+                "tag": {
+                    "en": "purity"
+                }
+            },
+            {
+                "confidence": 7.90970468521118,
+                "tag": {
+                    "en": "quench"
+                }
+            },
+            {
+                "confidence": 7.89262533187866,
+                "tag": {
+                    "en": "water drop"
+                }
+            },
+            {
+                "confidence": 7.84024047851562,
+                "tag": {
+                    "en": "glare"
+                }
+            },
+            {
+                "confidence": 7.78248357772827,
+                "tag": {
+                    "en": "nobody"
+                }
+            },
+            {
+                "confidence": 7.77060461044312,
+                "tag": {
+                    "en": "soap"
+                }
+            },
+            {
+                "confidence": 7.73786687850952,
+                "tag": {
+                    "en": "calorie"
+                }
+            },
+            {
+                "confidence": 7.70646333694458,
+                "tag": {
+                    "en": "cutout"
+                }
+            },
+            {
+                "confidence": 7.50795125961304,
+                "tag": {
+                    "en": "product"
+                }
+            },
+            {
+                "confidence": 7.45987319946289,
+                "tag": {
+                    "en": "foil"
+                }
+            },
+            {
+                "confidence": 7.3609938621521,
+                "tag": {
+                    "en": "light"
+                }
+            },
+            {
+                "confidence": 7.23875999450684,
+                "tag": {
+                    "en": "lifestyle"
+                }
+            },
+            {
+                "confidence": 7.18423891067505,
+                "tag": {
+                    "en": "spa"
+                }
+            },
+            {
+                "confidence": 7.05556869506836,
+                "tag": {
+                    "en": "medicine"
+                }
+            }
+        ]
+    },
+    "status": {
+        "text": "",
+        "type": "success"
+    }
+}

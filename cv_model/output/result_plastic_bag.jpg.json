@@ -1,0 +1,448 @@
+{
+    "result": {
+        "tags": [
+            {
+                "confidence": 100,
+                "tag": {
+                    "en": "plastic bag"
+                }
+            },
+            {
+                "confidence": 100,
+                "tag": {
+                    "en": "bag"
+                }
+            },
+            {
+                "confidence": 100,
+                "tag": {
+                    "en": "container"
+                }
+            },
+            {
+                "confidence": 21.2462863922119,
+                "tag": {
+                    "en": "object"
+                }
+            },
+            {
+                "confidence": 20.5873870849609,
+                "tag": {
+                    "en": "shopping"
+                }
+            },
+            {
+                "confidence": 18.8146991729736,
+                "tag": {
+                    "en": "paper"
+                }
+            },
+            {
+                "confidence": 16.8669471740723,
+                "tag": {
+                    "en": "wind"
+                }
+            },
+            {
+                "confidence": 16.4331569671631,
+                "tag": {
+                    "en": "single"
+                }
+            },
+            {
+                "confidence": 15.7154788970947,
+                "tag": {
+                    "en": "sale"
+                }
+            },
+            {
+                "confidence": 15.4039192199707,
+                "tag": {
+                    "en": "flag"
+                }
+            },
+            {
+                "confidence": 15.0958557128906,
+                "tag": {
+                    "en": "market"
+                }
+            },
+            {
+                "confidence": 15.0129842758179,
+                "tag": {
+                    "en": "color"
+                }
+            },
+            {
+                "confidence": 14.8095111846924,
+                "tag": {
+                    "en": "symbol"
+                }
+            },
+            {
+                "confidence": 14.4955949783325,
+                "tag": {
+                    "en": "food"
+                }
+            },
+            {
+                "confidence": 14.401219367981,
+                "tag": {
+                    "en": "meat"
+                }
+            },
+            {
+                "confidence": 14.2647523880005,
+                "tag": {
+                    "en": "raw"
+                }
+            },
+            {
+                "confidence": 13.9896507263184,
+                "tag": {
+                    "en": "nobody"
+                }
+            },
+            {
+                "confidence": 13.6422233581543,
+                "tag": {
+                    "en": "slice"
+                }
+            },
+            {
+                "confidence": 13.0707569122314,
+                "tag": {
+                    "en": "fresh"
+                }
+            },
+            {
+                "confidence": 12.9077138900757,
+                "tag": {
+                    "en": "gift"
+                }
+            },
+            {
+                "confidence": 12.681866645813,
+                "tag": {
+                    "en": "national"
+                }
+            },
+            {
+                "confidence": 11.9401884078979,
+                "tag": {
+                    "en": "banner"
+                }
+            },
+            {
+                "confidence": 11.6973733901978,
+                "tag": {
+                    "en": "bags"
+                }
+            },
+            {
+                "confidence": 11.6479320526123,
+                "tag": {
+                    "en": "cut"
+                }
+            },
+            {
+                "confidence": 11.5495338439941,
+                "tag": {
+                    "en": "package"
+                }
+            },
+            {
+                "confidence": 11.5230665206909,
+                "tag": {
+                    "en": "steak"
+                }
+            },
+            {
+                "confidence": 11.4102468490601,
+                "tag": {
+                    "en": "close"
+                }
+            },
+            {
+                "confidence": 11.1045045852661,
+                "tag": {
+                    "en": "culture"
+                }
+            },
+            {
+                "confidence": 10.7366828918457,
+                "tag": {
+                    "en": "orange"
+                }
+            },
+            {
+                "confidence": 10.6195945739746,
+                "tag": {
+                    "en": "section"
+                }
+            },
+            {
+                "confidence": 10.2536096572876,
+                "tag": {
+                    "en": "fat"
+                }
+            },
+            {
+                "confidence": 10.1816511154175,
+                "tag": {
+                    "en": "gourmet"
+                }
+            },
+            {
+                "confidence": 9.87585163116455,
+                "tag": {
+                    "en": "studio"
+                }
+            },
+            {
+                "confidence": 9.746337890625,
+                "tag": {
+                    "en": "carry"
+                }
+            },
+            {
+                "confidence": 9.6393928527832,
+                "tag": {
+                    "en": "buying"
+                }
+            },
+            {
+                "confidence": 9.49883079528809,
+                "tag": {
+                    "en": "retail"
+                }
+            },
+            {
+                "confidence": 9.48564624786377,
+                "tag": {
+                    "en": "textile"
+                }
+            },
+            {
+                "confidence": 9.39439868927002,
+                "tag": {
+                    "en": "buy"
+                }
+            },
+            {
+                "confidence": 9.3695182800293,
+                "tag": {
+                    "en": "shop"
+                }
+            },
+            {
+                "confidence": 9.28449058532715,
+                "tag": {
+                    "en": "cutout"
+                }
+            },
+            {
+                "confidence": 9.26145458221436,
+                "tag": {
+                    "en": "dinner"
+                }
+            },
+            {
+                "confidence": 9.14905071258545,
+                "tag": {
+                    "en": "freshness"
+                }
+            },
+            {
+                "confidence": 9.04633808135986,
+                "tag": {
+                    "en": "fashion"
+                }
+            },
+            {
+                "confidence": 9.02881050109863,
+                "tag": {
+                    "en": "texture"
+                }
+            },
+            {
+                "confidence": 8.76473522186279,
+                "tag": {
+                    "en": "waving"
+                }
+            },
+            {
+                "confidence": 8.75006103515625,
+                "tag": {
+                    "en": "pole"
+                }
+            },
+            {
+                "confidence": 8.73032188415527,
+                "tag": {
+                    "en": "cooking"
+                }
+            },
+            {
+                "confidence": 8.71448135375977,
+                "tag": {
+                    "en": "fillet"
+                }
+            },
+            {
+                "confidence": 8.71142292022705,
+                "tag": {
+                    "en": "patriotism"
+                }
+            },
+            {
+                "confidence": 8.60654830932617,
+                "tag": {
+                    "en": "preparation"
+                }
+            },
+            {
+                "confidence": 8.58957672119141,
+                "tag": {
+                    "en": "empty"
+                }
+            },
+            {
+                "confidence": 8.56996822357178,
+                "tag": {
+                    "en": "blank"
+                }
+            },
+            {
+                "confidence": 8.51508331298828,
+                "tag": {
+                    "en": "3d"
+                }
+            },
+            {
+                "confidence": 8.50404834747314,
+                "tag": {
+                    "en": "store"
+                }
+            },
+            {
+                "confidence": 8.34154891967773,
+                "tag": {
+                    "en": "clothing"
+                }
+            },
+            {
+                "confidence": 8.29942321777344,
+                "tag": {
+                    "en": "part"
+                }
+            },
+            {
+                "confidence": 8.04534435272217,
+                "tag": {
+                    "en": "history"
+                }
+            },
+            {
+                "confidence": 7.97618722915649,
+                "tag": {
+                    "en": "cuisine"
+                }
+            },
+            {
+                "confidence": 7.91448259353638,
+                "tag": {
+                    "en": "ingredient"
+                }
+            },
+            {
+                "confidence": 7.81726932525635,
+                "tag": {
+                    "en": "pride"
+                }
+            },
+            {
+                "confidence": 7.79557418823242,
+                "tag": {
+                    "en": "merchandise"
+                }
+            },
+            {
+                "confidence": 7.74520540237427,
+                "tag": {
+                    "en": "gifts"
+                }
+            },
+            {
+                "confidence": 7.74401521682739,
+                "tag": {
+                    "en": "salmon"
+                }
+            },
+            {
+                "confidence": 7.73415946960449,
+                "tag": {
+                    "en": "unity"
+                }
+            },
+            {
+                "confidence": 7.71812009811401,
+                "tag": {
+                    "en": "luxury"
+                }
+            },
+            {
+                "confidence": 7.51572132110596,
+                "tag": {
+                    "en": "commercial"
+                }
+            },
+            {
+                "confidence": 7.49100494384766,
+                "tag": {
+                    "en": "striped"
+                }
+            },
+            {
+                "confidence": 7.41495180130005,
+                "tag": {
+                    "en": "style"
+                }
+            },
+            {
+                "confidence": 7.31861257553101,
+                "tag": {
+                    "en": "fish"
+                }
+            },
+            {
+                "confidence": 7.31279611587524,
+                "tag": {
+                    "en": "design"
+                }
+            },
+            {
+                "confidence": 7.28527593612671,
+                "tag": {
+                    "en": "yellow"
+                }
+            },
+            {
+                "confidence": 7.27849054336548,
+                "tag": {
+                    "en": "present"
+                }
+            },
+            {
+                "confidence": 7.23679494857788,
+                "tag": {
+                    "en": "decoration"
+                }
+            }
+        ]
+    },
+    "status": {
+        "text": "",
+        "type": "success"
+    }
+}

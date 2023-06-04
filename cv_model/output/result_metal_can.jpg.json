@@ -1,0 +1,466 @@
+{
+    "result": {
+        "tags": [
+            {
+                "confidence": 96.6510162353516,
+                "tag": {
+                    "en": "container"
+                }
+            },
+            {
+                "confidence": 91.240119934082,
+                "tag": {
+                    "en": "cocktail shaker"
+                }
+            },
+            {
+                "confidence": 72.8819961547852,
+                "tag": {
+                    "en": "shaker"
+                }
+            },
+            {
+                "confidence": 34.6388893127441,
+                "tag": {
+                    "en": "can"
+                }
+            },
+            {
+                "confidence": 33.8655471801758,
+                "tag": {
+                    "en": "metal"
+                }
+            },
+            {
+                "confidence": 33.2523345947266,
+                "tag": {
+                    "en": "tin"
+                }
+            },
+            {
+                "confidence": 29.2319202423096,
+                "tag": {
+                    "en": "silver"
+                }
+            },
+            {
+                "confidence": 25.6694641113281,
+                "tag": {
+                    "en": "device"
+                }
+            },
+            {
+                "confidence": 24.9457206726074,
+                "tag": {
+                    "en": "object"
+                }
+            },
+            {
+                "confidence": 24.4003276824951,
+                "tag": {
+                    "en": "aluminum"
+                }
+            },
+            {
+                "confidence": 23.6228065490723,
+                "tag": {
+                    "en": "steel"
+                }
+            },
+            {
+                "confidence": 22.9043636322021,
+                "tag": {
+                    "en": "empty"
+                }
+            },
+            {
+                "confidence": 22.8906879425049,
+                "tag": {
+                    "en": "storage"
+                }
+            },
+            {
+                "confidence": 22.4071674346924,
+                "tag": {
+                    "en": "blank"
+                }
+            },
+            {
+                "confidence": 21.9792556762695,
+                "tag": {
+                    "en": "filter"
+                }
+            },
+            {
+                "confidence": 21.0165405273438,
+                "tag": {
+                    "en": "oil filter"
+                }
+            },
+            {
+                "confidence": 20.7443923950195,
+                "tag": {
+                    "en": "canned"
+                }
+            },
+            {
+                "confidence": 16.6349639892578,
+                "tag": {
+                    "en": "shiny"
+                }
+            },
+            {
+                "confidence": 16.6041679382324,
+                "tag": {
+                    "en": "metallic"
+                }
+            },
+            {
+                "confidence": 15.8036499023438,
+                "tag": {
+                    "en": "business"
+                }
+            },
+            {
+                "confidence": 15.750319480896,
+                "tag": {
+                    "en": "food"
+                }
+            },
+            {
+                "confidence": 15.7129917144775,
+                "tag": {
+                    "en": "stack"
+                }
+            },
+            {
+                "confidence": 14.8608694076538,
+                "tag": {
+                    "en": "close"
+                }
+            },
+            {
+                "confidence": 14.7815980911255,
+                "tag": {
+                    "en": "cylinder"
+                }
+            },
+            {
+                "confidence": 13.8500242233276,
+                "tag": {
+                    "en": "equipment"
+                }
+            },
+            {
+                "confidence": 13.8257551193237,
+                "tag": {
+                    "en": "cans"
+                }
+            },
+            {
+                "confidence": 13.7834615707397,
+                "tag": {
+                    "en": "lid"
+                }
+            },
+            {
+                "confidence": 13.3802375793457,
+                "tag": {
+                    "en": "clean"
+                }
+            },
+            {
+                "confidence": 12.6112565994263,
+                "tag": {
+                    "en": "recycling"
+                }
+            },
+            {
+                "confidence": 12.5524291992188,
+                "tag": {
+                    "en": "coins"
+                }
+            },
+            {
+                "confidence": 12.2175664901733,
+                "tag": {
+                    "en": "product"
+                }
+            },
+            {
+                "confidence": 11.9151782989502,
+                "tag": {
+                    "en": "money"
+                }
+            },
+            {
+                "confidence": 11.6836252212524,
+                "tag": {
+                    "en": "nobody"
+                }
+            },
+            {
+                "confidence": 11.6524534225464,
+                "tag": {
+                    "en": "kitchen"
+                }
+            },
+            {
+                "confidence": 11.4502582550049,
+                "tag": {
+                    "en": "coin"
+                }
+            },
+            {
+                "confidence": 10.8479175567627,
+                "tag": {
+                    "en": "3d"
+                }
+            },
+            {
+                "confidence": 10.6186294555664,
+                "tag": {
+                    "en": "recycle"
+                }
+            },
+            {
+                "confidence": 10.3146629333496,
+                "tag": {
+                    "en": "stock"
+                }
+            },
+            {
+                "confidence": 10.2802219390869,
+                "tag": {
+                    "en": "conserve"
+                }
+            },
+            {
+                "confidence": 10.1430406570435,
+                "tag": {
+                    "en": "finance"
+                }
+            },
+            {
+                "confidence": 10.1161823272705,
+                "tag": {
+                    "en": "banking"
+                }
+            },
+            {
+                "confidence": 10.1018342971802,
+                "tag": {
+                    "en": "plastic"
+                }
+            },
+            {
+                "confidence": 10.0719175338745,
+                "tag": {
+                    "en": "cash"
+                }
+            },
+            {
+                "confidence": 9.90289783477783,
+                "tag": {
+                    "en": "canister"
+                }
+            },
+            {
+                "confidence": 9.8936071395874,
+                "tag": {
+                    "en": "preserved"
+                }
+            },
+            {
+                "confidence": 9.87516784667969,
+                "tag": {
+                    "en": "currency"
+                }
+            },
+            {
+                "confidence": 9.44830703735352,
+                "tag": {
+                    "en": "closeup"
+                }
+            },
+            {
+                "confidence": 9.38405609130859,
+                "tag": {
+                    "en": "pile"
+                }
+            },
+            {
+                "confidence": 8.99310398101807,
+                "tag": {
+                    "en": "open"
+                }
+            },
+            {
+                "confidence": 8.96150207519531,
+                "tag": {
+                    "en": "bank"
+                }
+            },
+            {
+                "confidence": 8.91965103149414,
+                "tag": {
+                    "en": "canning"
+                }
+            },
+            {
+                "confidence": 8.91483688354492,
+                "tag": {
+                    "en": "technology"
+                }
+            },
+            {
+                "confidence": 8.91240978240967,
+                "tag": {
+                    "en": "tinned"
+                }
+            },
+            {
+                "confidence": 8.8828706741333,
+                "tag": {
+                    "en": "rubbish"
+                }
+            },
+            {
+                "confidence": 8.87559413909912,
+                "tag": {
+                    "en": "utensil"
+                }
+            },
+            {
+                "confidence": 8.86792945861816,
+                "tag": {
+                    "en": "preserve"
+                }
+            },
+            {
+                "confidence": 8.76331901550293,
+                "tag": {
+                    "en": "cooling system"
+                }
+            },
+            {
+                "confidence": 8.55165386199951,
+                "tag": {
+                    "en": "industry"
+                }
+            },
+            {
+                "confidence": 8.52966403961182,
+                "tag": {
+                    "en": "store"
+                }
+            },
+            {
+                "confidence": 8.3801851272583,
+                "tag": {
+                    "en": "rich"
+                }
+            },
+            {
+                "confidence": 8.25288391113281,
+                "tag": {
+                    "en": "investment"
+                }
+            },
+            {
+                "confidence": 8.2413854598999,
+                "tag": {
+                    "en": "single"
+                }
+            },
+            {
+                "confidence": 8.22183609008789,
+                "tag": {
+                    "en": "data"
+                }
+            },
+            {
+                "confidence": 8.13852405548096,
+                "tag": {
+                    "en": "reflection"
+                }
+            },
+            {
+                "confidence": 8.08283519744873,
+                "tag": {
+                    "en": "wealth"
+                }
+            },
+            {
+                "confidence": 7.77517604827881,
+                "tag": {
+                    "en": "bottle"
+                }
+            },
+            {
+                "confidence": 7.52848529815674,
+                "tag": {
+                    "en": "label"
+                }
+            },
+            {
+                "confidence": 7.45933246612549,
+                "tag": {
+                    "en": "savings"
+                }
+            },
+            {
+                "confidence": 7.44424438476562,
+                "tag": {
+                    "en": "cutout"
+                }
+            },
+            {
+                "confidence": 7.36148500442505,
+                "tag": {
+                    "en": "bin"
+                }
+            },
+            {
+                "confidence": 7.3592700958252,
+                "tag": {
+                    "en": "against"
+                }
+            },
+            {
+                "confidence": 7.29209995269775,
+                "tag": {
+                    "en": "protection"
+                }
+            },
+            {
+                "confidence": 7.14016151428223,
+                "tag": {
+                    "en": "jar"
+                }
+            },
+            {
+                "confidence": 7.12865161895752,
+                "tag": {
+                    "en": "financial"
+                }
+            },
+            {
+                "confidence": 7.00787258148193,
+                "tag": {
+                    "en": "garbage"
+                }
+            },
+            {
+                "confidence": 7.00503635406494,
+                "tag": {
+                    "en": "mechanism"
+                }
+            }
+        ]
+    },
+    "status": {
+        "text": "",
+        "type": "success"
+    }
+}
