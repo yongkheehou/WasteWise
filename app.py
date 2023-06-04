@@ -12,6 +12,14 @@ bin_finder = BinFinder()
 
 counter = -1
 
+files = [
+    'cv_model/output/result_ewaste.jpg.json',
+    'cv_model/output/result_furniture.jpg.json',
+    'cv_model/output/result_metal_can.jpg.json',
+    # 'cv_model/output/result_plastic_bag.jpg.json',
+    # 'cv_model/output/result_plastic_bottle.jpg.json',
+]
+
 @app.get("/")
 def read_root():
     return {"message": "I'm Alive!"}
@@ -19,27 +27,30 @@ def read_root():
 @app.post("/get_predictions")
 async def get_predictions():
     try:
-        main(tag_input='./cv_model/raw_images', tag_output="./cv_model/output")
-        
-        f = open('./cv_model/output/result_metal_can.jpg.json')
-        data = json.load(f)
-        f.close()
-        
         global counter 
+        
+        if counter >= 4: # reset counter
+            counter = -1
         
         counter += 1
         
-        if data['result']['tags'][counter]["tag"]["en"] == "container":
-            return "metal"
+        main(tag_input='./cv_model/raw_images', tag_output="./cv_model/output", images=[files[counter]])
         
-        elif data['result']['tags'][counter]["tag"]["en"] in ("bottle", "plastic bag"):
-            return "plastic"
+        f = open(f'{files[counter]}')
+        data = json.load(f)
+        f.close()
         
-        elif data['result']['tags'][counter]["tag"]["en"] == "rubbish":
-            return "e-waste"
+        if data['result']['tags'][0]["tag"]["en"] == "container":
+            return "recycling"
         
-        elif data['result']['tags'][counter]["tag"]["en"] == "studio couch":
-            return "second hand furniture"  
+        elif data['result']['tags'][0]["tag"]["en"] in ("bottle", "plastic bag"):
+            return "recycling"
+        
+        elif data['result']['tags'][0]["tag"]["en"] == "rubbish":
+            return "e_waste"
+        
+        elif data['result']['tags'][0]["tag"]["en"] == "studio couch":
+            return "second_hand"  
         
         else:
             return "Type of waste is unknown"

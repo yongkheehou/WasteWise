@@ -8,13 +8,13 @@
                 }
             },
             {
-                "confidence": 67.051872253418,
+                "confidence": 67.0518264770508,
                 "tag": {
                     "en": "container"
                 }
             },
             {
-                "confidence": 64.8065948486328,
+                "confidence": 64.8064575195312,
                 "tag": {
                     "en": "water bottle"
                 }
@@ -44,7 +44,7 @@
                 }
             },
             {
-                "confidence": 42.1014556884766,
+                "confidence": 42.1013832092285,
                 "tag": {
                     "en": "vessel"
                 }
@@ -68,7 +68,7 @@
                 }
             },
             {
-                "confidence": 32.5676460266113,
+                "confidence": 32.5676498413086,
                 "tag": {
                     "en": "glass"
                 }
@@ -176,13 +176,13 @@
                 }
             },
             {
-                "confidence": 18.7256565093994,
+                "confidence": 18.7256679534912,
                 "tag": {
                     "en": "label"
                 }
             },
             {
-                "confidence": 18.6171932220459,
+                "confidence": 18.6172046661377,
                 "tag": {
                     "en": "vodka"
                 }
@@ -236,7 +236,7 @@
                 }
             },
             {
-                "confidence": 13.7515392303467,
+                "confidence": 13.7515411376953,
                 "tag": {
                     "en": "food"
                 }
@@ -254,7 +254,7 @@
                 }
             },
             {
-                "confidence": 12.7146892547607,
+                "confidence": 12.7146816253662,
                 "tag": {
                     "en": "empty"
                 }
@@ -284,7 +284,7 @@
                 }
             },
             {
-                "confidence": 11.7805852890015,
+                "confidence": 11.7805843353271,
                 "tag": {
                     "en": "energy"
                 }
@@ -374,7 +374,7 @@
                 }
             },
             {
-                "confidence": 9.45461463928223,
+                "confidence": 9.45461177825928,
                 "tag": {
                     "en": "blank"
                 }
@@ -416,7 +416,7 @@
                 }
             },
             {
-                "confidence": 8.89517498016357,
+                "confidence": 8.89517974853516,
                 "tag": {
                     "en": "ice"
                 }
@@ -488,7 +488,7 @@
                 }
             },
             {
-                "confidence": 7.70646333694458,
+                "confidence": 7.70646524429321,
                 "tag": {
                     "en": "cutout"
                 }

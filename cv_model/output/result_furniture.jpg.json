@@ -26,7 +26,7 @@
                 }
             },
             {
-                "confidence": 93.7195129394531,
+                "confidence": 93.7195663452148,
                 "tag": {
                     "en": "convertible"
                 }
@@ -92,7 +92,7 @@
                 }
             },
             {
-                "confidence": 38.3307876586914,
+                "confidence": 38.3308029174805,
                 "tag": {
                     "en": "leather"
                 }
@@ -116,7 +116,7 @@
                 }
             },
             {
-                "confidence": 36.0086250305176,
+                "confidence": 36.0086326599121,
                 "tag": {
                     "en": "armchair"
                 }
@@ -170,7 +170,7 @@
                 }
             },
             {
-                "confidence": 27.5729999542236,
+                "confidence": 27.5729942321777,
                 "tag": {
                     "en": "cushion"
                 }
@@ -212,7 +212,7 @@
                 }
             },
             {
-                "confidence": 22.5673351287842,
+                "confidence": 22.5673236846924,
                 "tag": {
                     "en": "covered couch"
                 }
@@ -260,7 +260,7 @@
                 }
             },
             {
-                "confidence": 19.6867446899414,
+                "confidence": 19.6866855621338,
                 "tag": {
                     "en": "ottoman"
                 }
@@ -308,7 +308,7 @@
                 }
             },
             {
-                "confidence": 18.0009517669678,
+                "confidence": 18.0009441375732,
                 "tag": {
                     "en": "litter"
                 }
@@ -344,7 +344,7 @@
                 }
             },
             {
-                "confidence": 15.8557233810425,
+                "confidence": 15.8557271957397,
                 "tag": {
                     "en": "chair"
                 }
@@ -368,7 +368,7 @@
                 }
             },
             {
-                "confidence": 14.3768739700317,
+                "confidence": 14.3768520355225,
                 "tag": {
                     "en": "furnishing"
                 }
@@ -410,7 +410,7 @@
                 }
             },
             {
-                "confidence": 13.5279731750488,
+                "confidence": 13.5279664993286,
                 "tag": {
                     "en": "conveyance"
                 }
@@ -524,7 +524,7 @@
                 }
             },
             {
-                "confidence": 8.85636043548584,
+                "confidence": 8.85635757446289,
                 "tag": {
                     "en": "armrest"
                 }
