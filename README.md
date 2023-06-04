@@ -12,4 +12,4 @@ pip3 install -r requirements.txt
 add your IMAGGA_API_KEY and IMAGGA_API_SECRET into the .env file
 
 ## Run the following command to execute the code
-python main.py ./raw_images ./output --language=en --verbose=0 --merged-output=0 --include-colors=0
+python ./cv_model/main.py ./cv_model/raw_images ./cv_model/output --language=en --verbose=0 --merged-output=0 --include-colors=0
