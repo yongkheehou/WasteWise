@@ -26,11 +26,11 @@ async def get_predictions():
         counter += 1
         
         files = [
-            'cv_model\output\result_metal_can.jpg.json',
-            'cv_model\output\result_plastic_bag.jpg.json',
-            'cv_model\output\result_plastic_bottle.jpg.json',
-            'cv_model\output\result_ewaste.jpg.json',
-            'cv_model\output\result_furniture.jpg.json'
+            'cv_model/output/result_metal_can.jpg.json',
+            'cv_model/output/result_plastic_bag.jpg.json',
+            'cv_model/output/result_plastic_bottle.jpg.json',
+            'cv_model/output/result_ewaste.jpg.json',
+            'cv_model/output/result_furniture.jpg.json'
         ]
         
         f = open(f'{files[counter]}')

@@ -2,7 +2,7 @@
     "result": {
         "tags": [
             {
-                "confidence": 98.4726791381836,
+                "confidence": 98.4727096557617,
                 "tag": {
                     "en": "rubbish"
                 }
@@ -20,31 +20,31 @@
                 }
             },
             {
-                "confidence": 18.4644775390625,
+                "confidence": 18.4644947052002,
                 "tag": {
                     "en": "office"
                 }
             },
             {
-                "confidence": 17.0286102294922,
+                "confidence": 17.0286445617676,
                 "tag": {
                     "en": "desk"
                 }
             },
             {
-                "confidence": 16.9530048370361,
+                "confidence": 16.9530181884766,
                 "tag": {
                     "en": "vehicle"
                 }
             },
             {
-                "confidence": 16.4577808380127,
+                "confidence": 16.4578056335449,
                 "tag": {
                     "en": "table"
                 }
             },
             {
-                "confidence": 14.2927951812744,
+                "confidence": 14.2928133010864,
                 "tag": {
                     "en": "motor scooter"
                 }
@@ -56,13 +56,13 @@
                 }
             },
             {
-                "confidence": 13.8622426986694,
+                "confidence": 13.8622417449951,
                 "tag": {
                     "en": "laptop"
                 }
             },
             {
-                "confidence": 13.3731508255005,
+                "confidence": 13.3731489181519,
                 "tag": {
                     "en": "car"
                 }
@@ -74,13 +74,13 @@
                 }
             },
             {
-                "confidence": 12.6181697845459,
+                "confidence": 12.6181678771973,
                 "tag": {
                     "en": "equipment"
                 }
             },
             {
-                "confidence": 11.9920530319214,
+                "confidence": 11.9920673370361,
                 "tag": {
                     "en": "wheeled vehicle"
                 }
@@ -110,7 +110,7 @@
                 }
             },
             {
-                "confidence": 11.2930727005005,
+                "confidence": 11.2930736541748,
                 "tag": {
                     "en": "room"
                 }
@@ -122,7 +122,7 @@
                 }
             },
             {
-                "confidence": 11.1922044754028,
+                "confidence": 11.1922063827515,
                 "tag": {
                     "en": "building"
                 }
@@ -242,7 +242,7 @@
                 }
             },
             {
-                "confidence": 8.6134090423584,
+                "confidence": 8.61340522766113,
                 "tag": {
                     "en": "device"
                 }
@@ -272,7 +272,7 @@
                 }
             },
             {
-                "confidence": 8.33992958068848,
+                "confidence": 8.33994960784912,
                 "tag": {
                     "en": "furniture"
                 }
@@ -290,13 +290,13 @@
                 }
             },
             {
-                "confidence": 8.05747604370117,
+                "confidence": 8.05747985839844,
                 "tag": {
                     "en": "monitor"
                 }
             },
             {
-                "confidence": 7.99474763870239,
+                "confidence": 7.99474668502808,
                 "tag": {
                     "en": "motor"
                 }
@@ -332,7 +332,7 @@
                 }
             },
             {
-                "confidence": 7.73157119750977,
+                "confidence": 7.73156929016113,
                 "tag": {
                     "en": "machine"
                 }
