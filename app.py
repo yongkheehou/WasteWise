@@ -1,8 +1,14 @@
 from fastapi import FastAPI
-from cv_model.main import main
+from pydantic import BaseModel
 import json
 
+from BinFinder import BinFinder
+from cv_model.main import main
+
+
 app = FastAPI()
+bin_finder = BinFinder()
+
 
 @app.get("/")
 def read_root():
@@ -29,5 +35,23 @@ async def get_predictions():
         else:
             return "Type of waste is unknown"
         
+    except Exception:
+        raise Exception
+    
+
+class NearestBins(BaseModel):
+    number: int
+    user_coordinates: list
+    bin_type: str
+
+
+@app.post("/get_nearest_bins")
+async def get_nearest_bins(nearest_bins: NearestBins):
+    print(nearest_bins)
+    try:
+        k_nearest_bins = bin_finder.find_k_nearest_bins(nearest_bins.user_coordinates, nearest_bins.number)
+        return {
+            "data": k_nearest_bins
+        }
     except Exception:
         raise Exception
