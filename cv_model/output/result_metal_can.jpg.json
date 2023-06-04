@@ -2,19 +2,19 @@
     "result": {
         "tags": [
             {
-                "confidence": 96.6510162353516,
+                "confidence": 96.6509552001953,
                 "tag": {
                     "en": "container"
                 }
             },
             {
-                "confidence": 91.240119934082,
+                "confidence": 91.2399978637695,
                 "tag": {
                     "en": "cocktail shaker"
                 }
             },
             {
-                "confidence": 72.8819961547852,
+                "confidence": 72.8819046020508,
                 "tag": {
                     "en": "shaker"
                 }
@@ -44,7 +44,7 @@
                 }
             },
             {
-                "confidence": 25.6694641113281,
+                "confidence": 25.6694850921631,
                 "tag": {
                     "en": "device"
                 }
@@ -80,19 +80,19 @@
                 }
             },
             {
-                "confidence": 22.4071674346924,
+                "confidence": 22.407169342041,
                 "tag": {
                     "en": "blank"
                 }
             },
             {
-                "confidence": 21.9792556762695,
+                "confidence": 21.9792881011963,
                 "tag": {
                     "en": "filter"
                 }
             },
             {
-                "confidence": 21.0165405273438,
+                "confidence": 21.0165691375732,
                 "tag": {
                     "en": "oil filter"
                 }
@@ -392,7 +392,7 @@
                 }
             },
             {
-                "confidence": 7.77517604827881,
+                "confidence": 7.77517509460449,
                 "tag": {
                     "en": "bottle"
                 }
@@ -416,7 +416,7 @@
                 }
             },
             {
-                "confidence": 7.36148500442505,
+                "confidence": 7.36148405075073,
                 "tag": {
                     "en": "bin"
                 }
@@ -452,7 +452,7 @@
                 }
             },
             {
-                "confidence": 7.00503635406494,
+                "confidence": 7.00503778457642,
                 "tag": {
                     "en": "mechanism"
                 }

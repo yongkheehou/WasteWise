@@ -141,3 +141,6 @@ def main(tag_input, tag_output, language="en", verbose=0, merged_output=0, inclu
                         result, ensure_ascii=False, indent=4).encode('utf-8'))
 
     print('Done')
+
+if __name__=="__main__":
+    main(tag_input="./cv_model/raw_images", tag_output="./cv_model/output")
