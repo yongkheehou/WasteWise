@@ -75,62 +75,7 @@ def extract_colors(image, upload_id=False):
     return colors_response.json()
 
 
-def parse_arguments():
-    import argparse
-    parser = argparse.ArgumentParser(
-        description='Tags images in a folder')
-
-    parser.add_argument(
-        'input',
-        metavar='<input>',
-        type=str,
-        nargs=1,
-        help='The input - a folder containing images')
-
-    parser.add_argument(
-        'output',
-        metavar='<output>',
-        type=str,
-        nargs=1,
-        help='The output - a folder to output the results')
-
-    parser.add_argument(
-        '--language',
-        type=str,
-        default='en',
-        help='The language of the output tags')
-
-    parser.add_argument(
-        '--verbose',
-        type=int,
-        default=0,
-        help='Whether to use verbose mode')
-
-    parser.add_argument(
-        '--merged-output',
-        type=int,
-        default=0,
-        help='Whether to generate a single output file')
-
-    parser.add_argument(
-        '--include-colors',
-        type=int,
-        default=0,
-        help='Whether to do color exctraction on the images too')
-
-    args = parser.parse_args()
-    return args
-
-
-def main():
-    args = parse_arguments()
-
-    tag_input = args.input[0]
-    tag_output = args.output[0]
-    language = args.language
-    verbose = args.verbose
-    merged_output = args.merged_output
-    include_colors = args.include_colors
+def main(tag_input, tag_output, language="en", verbose=0, merged_output=0, include_colors=0):
 
     print('Tagging images started')
 
@@ -196,7 +141,3 @@ def main():
                         result, ensure_ascii=False, indent=4).encode('utf-8'))
 
     print('Done')
-
-
-if __name__ == '__main__':
-    main()
