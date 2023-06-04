@@ -47,9 +47,8 @@ class NearestBins(BaseModel):
 
 @app.post("/get_nearest_bins")
 async def get_nearest_bins(nearest_bins: NearestBins):
-    print(nearest_bins)
     try:
-        k_nearest_bins = bin_finder.find_k_nearest_bins(nearest_bins.user_coordinates, nearest_bins.number)
+        k_nearest_bins = bin_finder.find_k_nearest_bins(nearest_bins.user_coordinates, nearest_bins.number, nearest_bins.bin_type)
         return {
             "data": k_nearest_bins
         }

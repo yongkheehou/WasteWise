@@ -7,14 +7,6 @@ from square_utils import *
 
 def generate_dataframe(dataframe, square_centre_lat_list, square_centre_lon_list):
     """Given a dataframe containing the data, return a dictionary"""
-    coordinates = dict()
-    grid_dict = dict()
-    # fill up the dicts
-    for row_idx, lat in enumerate(square_centre_lat_list):
-        for col_idx, lon in enumerate(square_centre_lon_list):
-            coordinates[row_idx, col_idx] = (lat, lon)
-            grid_dict[lat, lon] = list()
-    
     square_lat_list = list()
     square_lon_list = list()
     for idx in dataframe.index:
