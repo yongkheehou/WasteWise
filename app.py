@@ -15,13 +15,21 @@ async def get_predictions():
     try:
         main(tag_input='./cv_model/raw_images', tag_output="./cv_model/output")
         
-        f = open('./cv_model/output/result_metal_can.jpg.json')
-        data = json.load(f)
-        f.close()
-        
         global counter 
         
         counter += 1
+        
+        files = [
+            'cv_model\output\result_metal_can.jpg.json',
+            'cv_model\output\result_plastic_bag.jpg.json',
+            'cv_model\output\result_plastic_bottle.jpg.json',
+            'cv_model\output\result_ewaste.jpg.json',
+            'cv_model\output\result_furniture.jpg.json'
+        ]
+        
+        f = open(f'{files[counter]}')
+        data = json.load(f)
+        f.close()
         
         if data['result']['tags'][counter]["tag"]["en"] == "container":
             return "recycling"
