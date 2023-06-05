@@ -67,10 +67,6 @@ This project consists of 2 parts, a next.js front-end and a Python fastAPI backe
    uvicorn app:app --host 0.0.0.0 --port 8000
    ```
 
-### Set Up Frontend
-
-Todo by Joshua
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
