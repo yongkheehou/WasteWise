@@ -1,0 +1,7 @@
+body > div:first-child {
+	overflow-x: hidden;
+}
+
+.display-3, .lead, .image1, .map1 {
+	font-family: 'Poppins', sans-serif;
+}
